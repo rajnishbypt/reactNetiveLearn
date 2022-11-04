@@ -1,6 +1,7 @@
  
 import { StyleSheet, Text, View  } from 'react-native';
 import ClassComp from './components/ClassComp';
+import FlexDirectionBasics from './components/Flex';
 import Form from './components/Form';
 import FixedDimensionsBasics from './components/Hieght';
 import Home from './components/Home';
@@ -20,8 +21,10 @@ export default function App() {
       {/* <SectionListBasics /> */}
       {/* <FixedDimensionsBasics /> */}
       {/* <Home  data={data} /> */}
-      <Form />
+      {/* <Form /> */}
+    
     </View>
+    // <FlexDirectionBasics />
   );
 }
 
