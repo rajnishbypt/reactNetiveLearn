@@ -46,12 +46,14 @@
 import * as React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import MyStack from './components/MyStack';
+import FadeIn from './components/FadeIn';
 
 const App = () => {
   return (
-    // <NavigationContainer>
+    
      <MyStack />
-    // </NavigationContainer>
+   
+    // <FadeIn />
   );
 };
 
